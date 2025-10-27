@@ -173,11 +173,12 @@ comment:
     repo: buwon/blog-comment-repo
     issue_term: pathname        # Required if issue_number is not set
     issue_number: 100           # Required if issue_term is not set. Every post can be mapped to a separate, manually-created GitHub issue.
+    label: blog-comment         # Optional
     theme: github-light         # Optional
 
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
+#donates:
     # "Afdian.net" donate button configurations
     #-
     #    type: afdian
@@ -212,7 +213,7 @@ donates:
     #    qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
+#share:
     # type: sharethis
     # URL to the ShareThis share plugin script
     # install_url: ''
