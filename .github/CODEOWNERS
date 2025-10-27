@@ -1,0 +1,11 @@
+# CODEOWNERS file for buwon.github.io
+# This file defines code ownership for the repository
+# All files require approval from the repository owner
+
+# Default owner for everything in the repo
+* @buwon
+
+# Explicitly protect configuration files
+/_config*.yml @buwon
+/package.json @buwon
+/.github/ @buwon
