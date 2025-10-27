@@ -2,7 +2,7 @@
 title: 효율적인 JavaScript DI (JDI)
 date: 2024-12-12
 updated: 2024-12-12
-tags: javascript di
+tags: [javascript, di]
 category: articles
 ---
 
