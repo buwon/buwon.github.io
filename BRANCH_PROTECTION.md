@@ -39,7 +39,7 @@ To fully protect the `main` branch, you must configure branch protection rules i
      - Add: `buwon` (repository owner)
      - This ensures only you can push directly to main
    
-   - ✅ **Allow force pushes** - Set to: **Specify who can force push** → Add yourself
+   - ✅ **Block force pushes** - Recommended to prevent rewriting history (leave unchecked to allow)
    
    - ✅ **Allow deletions** - Leave unchecked (prevents accidental deletion)
 
@@ -77,7 +77,7 @@ GitHub now offers Rulesets as a more powerful alternative to branch protection r
 ## Testing
 
 To verify the protection is working:
-1. Try to push directly to main from a different account or without being logged in - should fail
+1. Try to push directly to main from a different authenticated GitHub account - should fail
 2. Create a pull request from a feature branch - should work
 3. Try to merge PR without approval - should be blocked
 4. Get approval from @buwon - PR should become mergeable
