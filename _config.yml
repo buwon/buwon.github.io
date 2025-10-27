@@ -1,4 +1,4 @@
-title: mai_world
+title: buwon's blog
 subtitle: ''
 description: ''
 keywords: null
@@ -6,7 +6,7 @@ author: buwon
 language: ko
 timezone: Asia/Seoul
 url: https://buwon.github.io
-permalink: ':year/:month/:title/'
+permalink: ':title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
